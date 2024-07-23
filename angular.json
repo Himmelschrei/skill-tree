@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "skill-tree:build:production"
+              "buildTarget": "skill-tree:build:production"
             },
             "development": {
-              "browserTarget": "skill-tree:build:development"
+              "buildTarget": "skill-tree:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "skill-tree:build"
+            "buildTarget": "skill-tree:build"
           }
         },
         "test": {
