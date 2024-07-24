@@ -1,11 +1,12 @@
 import { Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
 import { HelpComponent } from './help/help.component';
 
 const routeConfig: Routes = [
   {
     path: '',
-    component: AppComponent,
+    component: HomeComponent,
     data: { title: 'Main Page' },
   },
   {
