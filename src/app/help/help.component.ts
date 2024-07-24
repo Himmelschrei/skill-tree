@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   templateUrl: './help.component.html',
   styleUrls: ['./help.component.css'],
 })
-export class HelpComponent {
-  title = 'skill app';
-}
+export class HelpComponent {}

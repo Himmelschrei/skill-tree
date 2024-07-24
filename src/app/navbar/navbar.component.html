@@ -1,1 +1,11 @@
-Navbar
+<div class="toolbar" role="banner">
+  <a [routerLink]="['/']">
+    <img src="assets/images/solBit-logo.svg" alt="Solvis Logo" class="logo" width="120" />
+  </a>
+  <a [routerLink]="['/help']" class="help-link">
+    <span class="anta-regular">Azubi-App</span>
+  </a>
+  <nav></nav>
+</div>
+
+<router-outlet></router-outlet>
