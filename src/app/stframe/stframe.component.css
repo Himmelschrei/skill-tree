@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.background {
+  background: linear-gradient(to bottom, rgba(3, 75, 82, 1) 0%, rgba(3, 75, 82, 0) 100%);
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  display: flex;
+  margin: 82px auto 32px;
+  padding: 0 16px;
+  align-items: center;
+}
+
+.skill-tree {
+  padding: 10 10px;
+  background-color: bisque;
+  height: 650px;
+  width: 1000px;
+  place-content: center;
+  justify-content: center;
+}
+
+.skill-tree-wrapper {
+  padding: 10 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tree-list {
+  border-width: 5px;
+  border-color: teal;
+  height: 650px;
+  width: 200px;
+  place-content: center;
+  justify-content: center;
+}
+
+.tree-list-item {
+  border-color: black;
+  border-width: 5px;
+  background-color: aquamarine;
+  margin: 5 0px;
+  height: 215px;
+  width: 190px;
+  place-content: center;
+  justify-content: center;
+}

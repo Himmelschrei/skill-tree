@@ -7,14 +7,17 @@
 .logo {
   filter: invert(75%) sepia(62%) saturate(1151%) hue-rotate(130deg) brightness(99%) contrast(87%);
 }
+.logo:hover {
+  filter: invert(40%) sepia(96%) saturate(529%) hue-rotate(192deg) brightness(91%) contrast(103%);
+}
 
 .nav-link {
-  color: #bce6eb;
+  color: #4ba5e6;
   font-size: 1.5rem;
   margin: 0 10px;
 }
 .nav-link:hover {
-  color: #4ba5e6;
+  color: #4a6de9;
 }
 
 .toolbar {
@@ -25,7 +28,7 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #1c0838;
+  background-color: #1a0765;
   color: white;
   font-weight: 600;
 }
