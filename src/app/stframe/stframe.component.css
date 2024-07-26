@@ -4,15 +4,21 @@ body {
   margin: 0;
 }
 
-.background {
+.anta-regular {
+  font-family: 'Anta', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* .background {
   background: linear-gradient(to bottom, rgba(3, 75, 82, 1) 0%, rgba(3, 75, 82, 0) 100%);
-  min-height: 100vh; /* Ensure it covers the full viewport height */
+  min-height: 100vh;
   width: 100%;
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
+} */
 
 .content {
   display: flex;
@@ -54,5 +60,5 @@ body {
   height: 215px;
   width: 190px;
   place-content: center;
-  justify-content: center;
+  text-align: center;
 }
