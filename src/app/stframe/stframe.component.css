@@ -1,7 +1,10 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .anta-regular {
@@ -10,15 +13,20 @@ body {
   font-style: normal;
 }
 
-/* .background {
+.background {
   background: linear-gradient(to bottom, rgba(3, 75, 82, 1) 0%, rgba(3, 75, 82, 0) 100%);
-  min-height: 100vh;
+  min-height: 98vh;
   width: 100%;
+  padding: 0;
   margin: 0;
+  overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-} */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .content {
   display: flex;
