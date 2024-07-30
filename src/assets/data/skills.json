@@ -1,162 +1,162 @@
 {
-  "skills": [
+  "skillData": [
     {
       "id": 100,
       "name": "libmf - Eigene C-Standard-Library",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 533,
+      "ypos": 32,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 101,
       "name": "Battleships - Schiffe versenken mit der CLI",
-      "xpos": 400,
-      "ypos": 200,
+      "xpos": 533,
+      "ypos": 136,
       "learnt": false,
       "achievement": 10
     },
     {
       "id": 102,
       "name": "Pointer",
-      "xpos": 400,
-      "ypos": 400,
+      "xpos": 536,
+      "ypos": 239,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 103,
       "name": "Battleships Multiplayer via TCP/IP",
-      "xpos": 400,
-      "ypos": 600,
+      "xpos": 114,
+      "ypos": 328,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 104,
       "name": "Datenstrukturen",
-      "xpos": 600,
-      "ypos": 600,
+      "xpos": 926,
+      "ypos": 328,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 105,
       "name": "libmf+ - Erweiterung der eigenen Lib",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 536,
+      "ypos": 328,
       "learnt": false,
       "achievement": 11
     },
     {
       "id": 106,
       "name": "WIN32 Taschenrechner",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 536,
+      "ypos": 430,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 107,
       "name": "vector",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 849,
+      "ypos": 430,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 108,
       "name": "stack",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 926,
+      "ypos": 430,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 109,
       "name": "list",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 999,
+      "ypos": 430,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 110,
       "name": "Rundenbasiertes 2D Top-Down Game",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 536,
+      "ypos": 523,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 111,
       "name": "btree",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 926,
+      "ypos": 523,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 112,
       "name": "Algorithmen - anwendbar auf die Liste",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 1188,
+      "ypos": 523,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 113,
       "name": "Echtzeit 3D Raycaster",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 536,
+      "ypos": 617,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 114,
       "name": "insertion sort",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 1067,
+      "ypos": 617,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 115,
       "name": "bubble sort",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 1186,
+      "ypos": 617,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 116,
       "name": "quick sort",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 1294,
+      "ypos": 617,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 117,
       "name": "Webserver - CGI/FCGI",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 293,
+      "ypos": 728,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 118,
       "name": "SQL Datenbank Anbidung",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 536,
+      "ypos": 728,
       "learnt": false,
       "achievement": 0
     },
     {
       "id": 119,
       "name": "Mulit-Threading",
-      "xpos": 400,
-      "ypos": 30,
+      "xpos": 753,
+      "ypos": 728,
       "learnt": false,
       "achievement": 0
     }

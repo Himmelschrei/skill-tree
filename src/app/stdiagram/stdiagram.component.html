@@ -1,0 +1,18 @@
+<p>Firmware</p>
+<section class="svg-scroll-container">
+  <svg width="1352" height="781">
+    <!-- SVG content, if any -->
+  </svg>
+  <div *ngFor="let skill of skills" class="skill-card" [ngStyle]="{ 'left.px': skill.xpos, 'top.px': skill.ypos }">
+    <mat-card>
+      <div *ngIf="skill.achievement != 0" class="achievement-symbol">
+        <img src="assets/images/achievement-symbol.svg" alt="Achievement" />
+      </div>
+      <svg class="svg-corner-line" width="110%" height="110%">
+        <line x1="16" y1="0" x2="0" y2="16" />
+        <line x1="100%" y1="calc(100% - 16px)" x2="calc(100% - 16px)" y2="100%" />
+      </svg>
+      <mat-card-title>{{ skill.name }}</mat-card-title>
+    </mat-card>
+  </div>
+</section>

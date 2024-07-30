@@ -2,8 +2,8 @@ html,
 body {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0 0;
+  padding: 0 0;
   overflow: hidden;
 }
 
@@ -14,9 +14,9 @@ body {
 }
 
 .background {
-  background: linear-gradient(to bottom, rgba(3, 75, 82, 1) 0%, rgba(3, 75, 82, 0) 100%);
+  /* background: linear-gradient(to bottom, rgba(3, 75, 82, 1) 0%, rgba(3, 75, 82, 0) 100%); */
   min-height: 98vh;
-  width: 100%;
+  width: 100vw;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -31,13 +31,13 @@ body {
 .content {
   display: flex;
   margin: 82px auto 32px;
-  padding: 0 16px;
+  padding: 0 6px;
   align-items: center;
 }
 
 .skill-tree {
   padding: 10 10px;
-  background-color: bisque;
+  /* background-color: bisque; */
   height: 650px;
   width: 1000px;
   place-content: center;
