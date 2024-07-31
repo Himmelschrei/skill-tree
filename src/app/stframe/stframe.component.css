@@ -1,29 +1,43 @@
 html,
 body {
   height: 100%;
-  margin: 0;
+  width: 100%;
+  margin: 0 0;
+  padding: 0 0;
+  overflow: hidden;
+}
+
+.anta-regular {
+  font-family: 'Anta', sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .background {
-  background: linear-gradient(to bottom, rgba(3, 75, 82, 1) 0%, rgba(3, 75, 82, 0) 100%);
-  min-height: 100vh; /* Ensure it covers the full viewport height */
-  width: 100%;
+  /* background: linear-gradient(to bottom, rgba(3, 75, 82, 1) 0%, rgba(3, 75, 82, 0) 100%); */
+  min-height: 98vh;
+  width: 100vw;
+  padding: 0;
   margin: 0;
+  overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .content {
   display: flex;
   margin: 82px auto 32px;
-  padding: 0 16px;
+  padding: 0 6px;
   align-items: center;
 }
 
 .skill-tree {
   padding: 10 10px;
-  background-color: bisque;
+  /* background-color: bisque; */
   height: 650px;
   width: 1000px;
   place-content: center;
@@ -54,5 +68,5 @@ body {
   height: 215px;
   width: 190px;
   place-content: center;
-  justify-content: center;
+  text-align: center;
 }

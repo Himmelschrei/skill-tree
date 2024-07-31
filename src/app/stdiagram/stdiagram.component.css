@@ -1,0 +1,133 @@
+.svg-corner-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  stroke: #f75049;
+  stroke-width: 2px;
+}
+
+.svg-line {
+  stroke: #742321;
+  stroke-width: 3px;
+}
+
+.svg-scroll-container {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  border: 3px solid #f75049;
+  overflow: hidden;
+  background: linear-gradient(185deg, #0e090e 0%, rgba(0, 0, 0, 1) 100%);
+  cursor: grab;
+}
+
+.svg-scroll-container:active {
+  cursor: grabbing;
+}
+
+.svg-scroll-container,
+.svg-scroll-container * {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.svg-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.skill-card {
+  position: absolute;
+  min-width: 60px;
+  max-width: 500px;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  overflow: visible;
+  transform: translate(-50%, -50%);
+}
+
+.achievement-symbol {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.achievement-symbol img {
+  width: 100%;
+  height: 100%;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0f0a11;
+  color: #f75049;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #6e98ae;
+  font-size: 12px;
+  padding: 5px;
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  transition:
+    opacity 0.3s,
+    visibility 0.3s;
+  top: -5px;
+  left: 105%;
+}
+
+.achievement-symbol:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip-symbol {
+  filter: invert(17%) sepia(77%) saturate(6659%) hue-rotate(288deg) brightness(102%) contrast(118%);
+}
+
+mat-card {
+  min-width: 50px;
+  max-width: 500px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  border: 2px solid #f75049;
+  background-color: #0f0a11;
+  clip-path: polygon(19px 0%, 100% 0%, 100% calc(100% - 19px), calc(100% - 19px) 100%, 0% 100%, 0% 19px);
+  overflow: visible;
+  position: relative;
+}
+
+mat-card-title {
+  color: #f75049;
+  padding: 10px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0;
+}
+
+mat-card-title,
+mat-card-content {
+  margin: 0;
+}

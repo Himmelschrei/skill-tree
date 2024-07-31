@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'help-component',
   standalone: true,
   templateUrl: './help.component.html',
-  styleUrls: ['./help.component.css'],
+  styleUrl: './help.component.css',
 })
 export class HelpComponent {}

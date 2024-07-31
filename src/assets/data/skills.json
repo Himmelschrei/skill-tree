@@ -1,0 +1,241 @@
+{
+  "skillData": [
+    {
+      "id": 100,
+      "name": "libmf - Eigene C-Standard-Library",
+      "xpos": 536,
+      "ypos": 32,
+      "learnt": false
+    },
+    {
+      "id": 101,
+      "name": "Battleships - Schiffe versenken mit der CLI",
+      "xpos": 536,
+      "ypos": 136,
+      "learnt": false,
+      "achievement": "Development on laptop unlocked"
+    },
+    {
+      "id": 102,
+      "name": "Pointer",
+      "xpos": 536,
+      "ypos": 239,
+      "learnt": false
+    },
+    {
+      "id": 103,
+      "name": "Battleships Multiplayer via TCP/IP",
+      "xpos": 114,
+      "ypos": 328,
+      "learnt": false
+    },
+    {
+      "id": 104,
+      "name": "Datenstrukturen",
+      "xpos": 926,
+      "ypos": 328,
+      "learnt": false
+    },
+    {
+      "id": 105,
+      "name": "libmf+ - Erweiterung der eigenen Lib",
+      "xpos": 536,
+      "ypos": 328,
+      "learnt": false,
+      "achievement": "GUI unlocked"
+    },
+    {
+      "id": 106,
+      "name": "WIN32 Taschenrechner",
+      "xpos": 536,
+      "ypos": 430,
+      "learnt": false
+    },
+    {
+      "id": 107,
+      "name": "vector",
+      "xpos": 849,
+      "ypos": 430,
+      "learnt": false
+    },
+    {
+      "id": 108,
+      "name": "stack",
+      "xpos": 926,
+      "ypos": 430,
+      "learnt": false
+    },
+    {
+      "id": 109,
+      "name": "list",
+      "xpos": 999,
+      "ypos": 430,
+      "learnt": false
+    },
+    {
+      "id": 110,
+      "name": "Rundenbasiertes 2D Top-Down Game",
+      "xpos": 536,
+      "ypos": 523,
+      "learnt": false,
+      "achievement": "3D unlocked"
+    },
+    {
+      "id": 111,
+      "name": "btree",
+      "xpos": 926,
+      "ypos": 523,
+      "learnt": false
+    },
+    {
+      "id": 112,
+      "name": "Algorithmen - anwendbar auf die Liste",
+      "xpos": 1188,
+      "ypos": 523,
+      "learnt": false
+    },
+    {
+      "id": 113,
+      "name": "Echtzeit 3D Raycaster",
+      "xpos": 536,
+      "ypos": 617,
+      "learnt": false
+    },
+    {
+      "id": 114,
+      "name": "insertion sort",
+      "xpos": 1067,
+      "ypos": 617,
+      "learnt": false
+    },
+    {
+      "id": 115,
+      "name": "bubble sort",
+      "xpos": 1186,
+      "ypos": 617,
+      "learnt": false
+    },
+    {
+      "id": 116,
+      "name": "quick sort",
+      "xpos": 1294,
+      "ypos": 617,
+      "learnt": false
+    },
+    {
+      "id": 117,
+      "name": "Webserver - CGI/FCGI",
+      "xpos": 293,
+      "ypos": 728,
+      "learnt": false
+    },
+    {
+      "id": 118,
+      "name": "SQL Datenbank Anbidung",
+      "xpos": 536,
+      "ypos": 728,
+      "learnt": false
+    },
+    {
+      "id": 119,
+      "name": "Mulit-Threading",
+      "xpos": 753,
+      "ypos": 728,
+      "learnt": false
+    }
+  ],
+  "relationships": [
+    {
+      "parentId": 100,
+      "childId": 101
+    },
+    {
+      "parentId": 101,
+      "childId": 102
+    },
+    {
+      "parentId": 101,
+      "childId": 103
+    },
+    {
+      "parentId": 102,
+      "childId": 103
+    },
+    {
+      "parentId": 102,
+      "childId": 104
+    },
+    {
+      "parentId": 102,
+      "childId": 105
+    },
+    {
+      "parentId": 105,
+      "childId": 106
+    },
+    {
+      "parentId": 104,
+      "childId": 107
+    },
+    {
+      "parentId": 104,
+      "childId": 108
+    },
+    {
+      "parentId": 104,
+      "childId": 109
+    },
+    {
+      "parentId": 106,
+      "childId": 110
+    },
+    {
+      "parentId": 107,
+      "childId": 110
+    },
+    {
+      "parentId": 107,
+      "childId": 111
+    },
+    {
+      "parentId": 108,
+      "childId": 111
+    },
+    {
+      "parentId": 109,
+      "childId": 111
+    },
+    {
+      "parentId": 109,
+      "childId": 112
+    },
+    {
+      "parentId": 110,
+      "childId": 113
+    },
+    {
+      "parentId": 112,
+      "childId": 114
+    },
+    {
+      "parentId": 112,
+      "childId": 115
+    },
+    {
+      "parentId": 112,
+      "childId": 116
+    },
+    {
+      "parentId": 113,
+      "childId": 117
+    },
+    {
+      "parentId": 113,
+      "childId": 118
+    },
+    {
+      "parentId": 113,
+      "childId": 119
+    }
+  ]
+}
