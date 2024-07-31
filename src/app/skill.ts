@@ -4,5 +4,5 @@ export interface Skill {
   xpos: number;
   ypos: number;
   learnt: boolean;
-  achievement: number;
+  achievement?: string;
 }

@@ -11,7 +11,7 @@
       </svg>
       <mat-card-title>{{ skill.name }}</mat-card-title>
     </mat-card>
-    <div *ngIf="skill.achievement != 0" class="achievement-symbol">
+    <div *ngIf="skill.achievement" class="achievement-symbol">
       <img src="assets/images/achievement-symbol.svg" alt="Achievement" class="tooltip-symbol" width="30" />
       <span class="tooltip">{{ skill.achievement }}</span>
     </div>
