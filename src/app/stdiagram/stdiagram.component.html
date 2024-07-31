@@ -2,6 +2,17 @@
 <section class="svg-scroll-container">
   <svg width="1352" height="781">
     <!-- SVG content, if any -->
+
+    <g *ngFor="let rel of relationships">
+      <line
+        *ngIf="skills && rel"
+        class="svg-line"
+        [attr.x1]="getSkillPosition(rel.childId).x"
+        [attr.y1]="getSkillPosition(rel.childId).y"
+        [attr.x2]="getSkillPosition(rel.parentId).x"
+        [attr.y2]="getSkillPosition(rel.parentId).y"
+      />
+    </g>
   </svg>
   <div *ngFor="let skill of skills" class="skill-card" [ngStyle]="{ 'left.px': skill.xpos, 'top.px': skill.ypos }">
     <mat-card>
